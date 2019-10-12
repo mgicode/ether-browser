@@ -9,7 +9,7 @@ RUN git clone https://github.com/mgicode/ether-browser.git --depth 1
 #RUN chmod 777   /explorer/
 #RUN ls -la /explorer/*
 
-WORKDIR /explorer/
+WORKDIR /ether-browser/
 
 RUN bower install --allow-root   --config.interactive
 RUN bower install angular --save-dev  --allow-root   --config.interactive
